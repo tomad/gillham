@@ -3,11 +3,11 @@
 from setuptools import setup
 
 setup(
-    name='modes',
+    name='gillham',
     version='0.1',
-    license='MIT License',
-    author='td',
-    description='SSR Mode-S decoding tools',
+    license='GPL',
+    author='tomad',
+    description='Gillham code altitude decoding',
     packages=['gillham'],
     tests_require=['nose'],
     test_suite='nose.collector'
